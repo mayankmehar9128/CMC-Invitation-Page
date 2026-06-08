@@ -33,7 +33,7 @@ export default function HeroSection() {
             <h1 className="text-5xl lg:text-7xl font-extrabold text-gray-900 leading-tight mb-6 tracking-tight">
               Transform Your <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">
-                Commerce Career
+                Career
               </span>
             </h1>
             
