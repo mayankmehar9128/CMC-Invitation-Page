@@ -4,6 +4,8 @@ import { CheckCircle2, GraduationCap, Lightbulb, TrendingUp } from 'lucide-react
 
 import groupUrl from '../../assets/group.jpg';
 import classroom2Url from '../../assets/classroom2.jpg';
+import student_awardedUrl from '../../assets/student_awarded.jpg';
+import student_awarded1Url from '../../assets/student_awarded.jpg';
 
 const features = [
   {
@@ -64,9 +66,11 @@ export default function AboutSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative"
           >
-            <div className="grid grid-cols-2 gap-4">
-              <img src={groupUrl} alt="Group of students and director" className="rounded-2xl shadow-lg w-full h-64 object-cover transform translate-y-8 hover:-translate-y-2 transition-transform duration-500" />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <img src={groupUrl} alt="Group of students and director" className="rounded-2xl shadow-lg w-full h-64 object-cover transform md:translate-y-4 hover:-translate-y-2 transition-transform duration-500" />
               <img src={classroom2Url} alt="Classroom environment" className="rounded-2xl shadow-lg w-full h-64 object-cover hover:-translate-y-2 transition-transform duration-500" />
+              <img src={student_awardedUrl} alt="Student awarded" className="rounded-2xl shadow-lg w-full h-full object-cover md:translate-y-9 hover:-translate-y-2 transition-transform duration-500" />
+              <img src={student_awarded1Url} alt="Student awarded" className="rounded-2xl shadow-lg w-full h-full object-cover hover:-translate-y-2 transition-transform duration-500" />
             </div>
             <div className="absolute -z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full bg-blue-50 rounded-full blur-3xl opacity-50"></div>
           </motion.div>

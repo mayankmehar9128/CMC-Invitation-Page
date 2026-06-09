@@ -2,6 +2,7 @@ import React from 'react';
 import HeroSection from './components/sections/HeroSection';
 import AboutSection from './components/sections/AboutSection';
 import CoursesSection from './components/sections/CoursesSection';
+import TeachersSection from './components/sections/TeachersSection';
 import DirectorSection from './components/sections/DirectorSection';
 import FeeTimingSection from './components/sections/FeeTimingSection';
 import Footer from './components/sections/Footer';
@@ -13,6 +14,7 @@ function App() {
         <HeroSection />
         <AboutSection />
         <CoursesSection />
+        <TeachersSection />
         <DirectorSection />
         <FeeTimingSection />
       </main>
