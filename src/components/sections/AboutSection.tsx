@@ -5,7 +5,7 @@ import { CheckCircle2, GraduationCap, Lightbulb, TrendingUp } from 'lucide-react
 import groupUrl from '../../assets/group.jpg';
 import classroom2Url from '../../assets/classroom2.jpg';
 import student_awardedUrl from '../../assets/student_awarded.jpg';
-import student_awarded1Url from '../../assets/student_awarded.jpg';
+import student_awarded1Url from '../../assets/student_awarded1.jpg';
 
 const features = [
   {
