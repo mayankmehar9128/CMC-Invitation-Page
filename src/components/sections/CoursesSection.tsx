@@ -49,7 +49,7 @@ const courses = [
   {
       id: 'computercourse',
       title: 'COMPUTER Courses',
-      description: 'Specialized batches for Computer Courses Artificial Intelligence(AI), Data Science, Machine Learning, Python, Web Development, ADCA, DCA, Tally with practical insights, Ms Office, Typing',
+      description: 'Specialized batches for Computer Courses Artificial Intelligence(AI), Data Science, Machine Learning, Python, Web Development, C, C++, ADCA, DCA, Tally with practical insights, Ms Office, Typing',
       icon: LineChart,
       features: ['Syllabus Coverage', 'Practical insights', 'Test Series', 'Doubt Classes'],
       color: 'bg-yellow-500'
@@ -83,7 +83,7 @@ export default function CoursesSection() {
           </motion.div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           {courses.map((course, index) => (
             <motion.div
               key={course.id}

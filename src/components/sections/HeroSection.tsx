@@ -59,7 +59,7 @@ export default function HeroSection() {
                 <p className="text-sm text-gray-500">Students Taught</p>
               </div>
               <div>
-                <h4 className="text-3xl font-bold text-gray-900 mb-1">15+</h4>
+                <h4 className="text-3xl font-bold text-gray-900 mb-1">25+</h4>
                 <p className="text-sm text-gray-500">Years Experience</p>
               </div>
               <div>

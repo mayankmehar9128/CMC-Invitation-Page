@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import HeroSection from './components/sections/HeroSection';
 import AboutSection from './components/sections/AboutSection';
+import VideoSection from './components/sections/VideoSection';
 import CoursesSection from './components/sections/CoursesSection';
 import TeachersSection from './components/sections/TeachersSection';
 import DirectorSection from './components/sections/DirectorSection';
@@ -79,6 +80,7 @@ function App() {
       <BackgroundAnimation />
       <main className="relative z-10">
         <HeroSection />
+        <VideoSection />
         <AboutSection />
         <CoursesSection />
         <TeachersSection />
