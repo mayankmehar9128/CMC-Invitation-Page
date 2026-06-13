@@ -91,15 +91,15 @@ export default function FeeTimingSection() {
                   </p>
                   <ul className="space-y-3 text-sm text-gray-700 font-medium">
                     <li className="flex justify-between border-b border-gray-100 pb-2">
-                      <span>Morning Batches:</span>
-                      <span className="font-semibold">7:00 AM – 11:00 AM</span>
+                      <span>Batche Timing:</span>
+                      <span className="font-semibold">7:00 AM – 09:00 PM</span>
                     </li>
-                    <li className="flex justify-between border-b border-gray-100 pb-2">
+                    {/* <li className="flex justify-between border-b border-gray-100 pb-2">
                       <span>Evening Batches:</span>
                       <span className="font-semibold">3:00 PM – 7:00 PM</span>
-                    </li>
+                    </li> */}
                     <li className="flex justify-between pb-2">
-                      <span>Doubt Classes:</span>
+                      <span>Extra Classes:</span>
                       <span className="font-semibold">Sundays</span>
                     </li>
                   </ul>
