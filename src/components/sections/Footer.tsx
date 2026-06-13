@@ -57,17 +57,17 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold text-white mb-6">Contact Us</h4>
             <ul className="space-y-4">
-              <li className="flex items-start">
-                <MapPin className="h-6 w-6 text-primary mr-3 shrink-0" />
-                <span className="text-gray-400">Bhikhana Pahari,<br/>Patna-4, Bihar</span>
+              <li className="flex items-start gap-3">
+                <MapPin className="h-5 w-5 text-primary shrink-0 mt-1" />
+                <span className="text-gray-400">Kumhrar, Patna, Bihar<br/>Pin: 800026</span>
               </li>
-              <li className="flex items-center">
-                <Phone className="h-5 w-5 text-primary mr-3 shrink-0" />
-                <span className="text-gray-400">Mob: 6200491833</span>
+              <li className="flex items-center gap-3">
+                <Phone className="h-5 w-5 text-primary shrink-0" />
+                <a href="tel:+916200491833" className="text-gray-400 hover:text-white transition-colors">Mob: 6200491833</a>
               </li>
-              <li className="flex items-center">
-                <Mail className="h-5 w-5 text-primary mr-3 shrink-0" />
-                <span className="text-gray-400">cmcpatna99@gmail.com</span>
+              <li className="flex items-center gap-3">
+                <Mail className="h-5 w-5 text-primary shrink-0" />
+                <a href="mailto:cmcpatna99@gmail.com" className="text-gray-400 hover:text-white transition-colors">cmcpatna99@gmail.com</a>
               </li>
             </ul>
           </div>

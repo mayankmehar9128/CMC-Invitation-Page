@@ -7,6 +7,7 @@ import TeachersSection from './components/sections/TeachersSection';
 import DirectorSection from './components/sections/DirectorSection';
 import FeeTimingSection from './components/sections/FeeTimingSection';
 import LocationSection from './components/sections/LocationSection';
+import FloatingWhatsApp from './components/sections/FloatingWhatsApp';
 import Footer from './components/sections/Footer';
 
 const BackgroundAnimation = () => {
@@ -86,6 +87,7 @@ function App() {
         <LocationSection />
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }

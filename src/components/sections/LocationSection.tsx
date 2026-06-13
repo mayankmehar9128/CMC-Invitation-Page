@@ -62,9 +62,9 @@ export default function LocationSection() {
                 </div>
                 <div>
                   <h4 className="text-xl font-bold text-gray-900 mb-2">Call Us</h4>
-                  <p className="text-gray-600">
+                  <a href="tel:+916200491833" className="text-gray-600 hover:text-primary transition-colors block">
                     +91 6200491833
-                  </p>
+                  </a>
                 </div>
               </CardContent>
             </Card>

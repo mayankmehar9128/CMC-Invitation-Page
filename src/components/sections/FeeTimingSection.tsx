@@ -104,9 +104,11 @@ export default function FeeTimingSection() {
                     </li>
                   </ul>
 
-                  <Button className="w-full gap-2 rounded-full h-12 text-base mt-4">
-                    <PhoneCall className="h-5 w-5" />
-                    Call 6200491833
+                  <Button asChild className="w-full gap-2 rounded-full h-12 text-base mt-4">
+                    <a href="tel:+916200491833">
+                      <PhoneCall className="h-5 w-5" />
+                      Call 6200491833
+                    </a>
                   </Button>
                 </CardContent>
               </Card>

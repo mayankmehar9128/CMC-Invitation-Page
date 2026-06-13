@@ -38,14 +38,22 @@ const courses = [
     features: ['Syllabus Coverage', 'Previous Year Qs', 'Test Series'],
     color: 'bg-green-500'
   },
-   {
+  {
       id: 'cuet',
       title: 'CUET (UG & PG)',
       description: 'Specialized batches for CUET.',
       icon: LineChart,
       features: ['Syllabus Coverage', 'Previous Year Qs', 'Test Series'],
       color: 'bg-green-500'
-    },
+  },
+  {
+      id: 'computercourse',
+      title: 'Computer Courses',
+      description: 'Specialized batches for Computer Courses ADCA, DCA, Telly with practical insights, Ms Office, Typing',
+      icon: LineChart,
+      features: ['Syllabus Coverage', 'Practical insights', 'Test Series', 'Doubt Classes'],
+      color: 'bg-green-500'
+  },
 ];
 
 export default function CoursesSection() {
