@@ -10,7 +10,7 @@ const handleContact = () => {
 
 export default function HeroSection() {
   return (
-    <section id="home" className="relative pt-10 pb-20 lg:pt-30 lg:pb-20 overflow-hidden bg-slate-50 min-h-screen flex items-center">
+    <section id="home" className="relative pt-10 pb-20 lg:pt-30 lg:pb-20 overflow-hidden bg-transparent min-h-screen flex items-center">
       {/* Background Decorative Elements */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-blue-100 blur-3xl opacity-50 animate-pulse"></div>
       <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-orange-100 blur-3xl opacity-50 animate-pulse" style={{ animationDelay: '2s' }}></div>

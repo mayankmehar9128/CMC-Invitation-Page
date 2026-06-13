@@ -40,7 +40,7 @@ const features = [
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-16 bg-white relative">
+    <section id="about" className="py-16 bg-transparent relative">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
           <motion.div

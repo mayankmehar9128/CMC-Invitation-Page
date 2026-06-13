@@ -9,7 +9,7 @@ import award4Url from '../../assets/award4.jpg';
 
 export default function DirectorSection() {
   return (
-    <section id="director" className="py-16 bg-slate-50">
+    <section id="director" className="py-16 bg-transparent">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
         
         {/* Invitation Card Style Container */}

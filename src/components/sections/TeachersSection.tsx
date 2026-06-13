@@ -48,7 +48,7 @@ const teachers = [
 
 export default function TeachersSection() {
   return (
-    <section id="teachers" className="py-24 bg-white relative overflow-hidden">
+    <section id="teachers" className="py-24 bg-transparent relative overflow-hidden">
       {/* Decorative Background Elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-blue-50 rounded-full blur-3xl opacity-60 -translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-orange-50 rounded-full blur-3xl opacity-60 translate-x-1/3 translate-y-1/3"></div>

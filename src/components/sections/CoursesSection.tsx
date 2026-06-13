@@ -42,7 +42,7 @@ const courses = [
 
 export default function CoursesSection() {
   return (
-    <section id="courses" className="py-16 bg-slate-50 relative">
+    <section id="courses" className="py-16 bg-transparent relative">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16">
           <motion.div 
