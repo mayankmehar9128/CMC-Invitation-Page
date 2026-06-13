@@ -19,6 +19,7 @@ export default function VideoSection() {
             muted 
             playsInline
             controls
+            preload="metadata"
             className="w-auto max-w-full h-auto max-h-[85vh] object-contain block"
           >
             <source src={heroVideo} type="video/mp4" />
