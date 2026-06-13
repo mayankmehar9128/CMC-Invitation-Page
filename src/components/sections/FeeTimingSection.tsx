@@ -104,11 +104,6 @@ export default function FeeTimingSection() {
                     </li>
                   </ul>
 
-                  <div className="mt-6 bg-blue-50 border border-blue-100 rounded-xl p-4 text-blue-700 text-sm font-semibold flex items-center gap-2 justify-center">
-                    <BadgePercent className="h-4 w-4 shrink-0" />
-                    Up to 50% Scholarship for Toppers
-                  </div>
-
                   <Button className="w-full gap-2 rounded-full h-12 text-base mt-4">
                     <PhoneCall className="h-5 w-5" />
                     Call 6200491833
@@ -248,12 +243,17 @@ export default function FeeTimingSection() {
                   </div>
 
                   {/* Footer note */}
-                  <div className="mx-4 sm:mx-6 my-4 bg-amber-50 border border-amber-100 rounded-xl px-4 py-3 text-amber-800 text-xs font-medium flex items-start gap-2">
-                    <BadgePercent className="h-4 w-4 shrink-0 mt-0.5 text-amber-500" />
+                  {/* <div className="mx-4 sm:mx-6 my-4 bg-amber-50 border border-amber-100 rounded-xl px-4 py-3 text-amber-800 text-xs font-medium flex items-start gap-2"> */}
+                    {/* <BadgePercent className="h-4 w-4 shrink-0 mt-0.5 text-amber-500" />
                     <span>
                       <strong>Scholarship available:</strong> Up to 50% fee concession for meritorious students. Contact us for details.
-                    </span>
-                  </div>
+                    </span> */}
+
+                    <div className="m-4 bg-blue-50 border border-blue-100 rounded-xl p-4 text-blue-700 text-sm font-semibold flex items-center gap-2 justify-center">
+                      <BadgePercent className="h-4 w-4 shrink-0" />
+                      Up to 50% Scholarship for Toppers
+                    </div>
+                  {/* </div> */}
                 </CardContent>
               </Card>
             </motion.div>
