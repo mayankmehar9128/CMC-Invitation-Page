@@ -12,7 +12,7 @@ export default function Footer() {
           
           {/* Brand Col */}
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold text-white mb-6">MITHILESH <span className="text-secondary">CMC</span></h3>
+            <h3 className="text-2xl font-bold text-white mb-6">MITHILESH COMMERCE <span className="text-secondary">CMC</span></h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Bihar's leading commerce institute providing quality education and ensuring top ranks in professional and academic exams.
             </p>
@@ -45,9 +45,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold text-white mb-6">Top Courses</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">CA Foundation / Inter</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">CS Executive</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">CMA Foundation</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">CA / CS / CMA</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">CUET</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">BPSE</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">B.Com / BBA</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">XI - XII Commerce</a></li>
             </ul>

@@ -37,7 +37,15 @@ const courses = [
     icon: LineChart,
     features: ['Syllabus Coverage', 'Previous Year Qs', 'Test Series'],
     color: 'bg-green-500'
-  }
+  },
+   {
+      id: 'cuet',
+      title: 'CUET (UG & PG)',
+      description: 'Specialized batches for CUET.',
+      icon: LineChart,
+      features: ['Syllabus Coverage', 'Previous Year Qs', 'Test Series'],
+      color: 'bg-green-500'
+    },
 ];
 
 export default function CoursesSection() {
