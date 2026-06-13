@@ -6,34 +6,42 @@ import teacher1 from '../../assets/teachers/teacher1.jpg';
 import teacher2 from '../../assets/teachers/teacher2.jpg';
 import teacher3 from '../../assets/teachers/teacher3.jpg';
 import teacher4 from '../../assets/teachers/teacher4.jpg';
+import teacher5 from '../../assets/teachers/teacher5.png';
 
 const teachers = [
   {
     id: 1,
-    name: "",
-    subject: "",
-    image: teacher1,
+    name: "MITHILESH SIR",
+    subject: "Director",
+    image: teacher4,
     thought: "Education is the key to unlocking the world, a passport to freedom."
   },
   {
     id: 2,
-    name: "",
+    name: "Md. NAYEEM SIR",
     subject: "",
     image: teacher2,
     thought: "The beautiful thing about learning is that no one can take it away from you."
   },
   {
     id: 3,
-    name: "",
+    name: "ASHUTOSH SIR",
+    subject: "",
+    image: teacher5,
+    thought: "The only way to do great work is to love what you do."
+  },
+  {
+    id: 4,
+    name: "RAGHUVEER SIR",
     subject: "",
     image: teacher3,
     thought: "A teacher affects eternity; they can never tell where their influence stops."
   },
   {
-    id: 4,
-    name: "",
+    id: 5,
+    name: "Md. AHASAN SIR",
     subject: "",
-    image: teacher4,
+    image: teacher1,
     thought: "The mind is not a vessel to be filled, but a fire to be kindled."
   }
 ];
