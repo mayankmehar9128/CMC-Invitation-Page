@@ -38,7 +38,7 @@ export default function HeroSection() {
             </h1>
             
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Join Mithilesh CMC Commerce for unparalleled coaching in CA, CS, CMA, B.Com, BBA, CUET, and more. Experience smart study with smart results.
+              Join MIHTILESH COMMERCE CMC for unparalleled coaching in CA, CS, CMA, B.Com, BBA, CUET, and more. Experience smart study with smart results.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
