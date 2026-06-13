@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import heroVideo from '../../assets/WhatsApp Video 2026-06-13 at 11.10.29 PM.mp4';
+import heroVideo from '../../assets/cmc_vid.mp4';
 
 export default function VideoSection() {
   return (
