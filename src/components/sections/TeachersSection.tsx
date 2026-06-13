@@ -12,7 +12,7 @@ const teachers = [
   {
     id: 1,
     name: "MITHILESH SIR",
-    subject: "Director",
+    subject: "",
     image: teacher4,
     thought: "Education is the key to unlocking the world, a passport to freedom."
   },
@@ -61,7 +61,7 @@ export default function TeachersSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-sm font-bold tracking-wider text-primary uppercase mb-3">Our Expert Faculty</h2>
+            <h2 className="text-sm font-bold tracking-wider text-primary uppercase mb-3">Our Teachers</h2>
             <h3 className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-6">
               Learn from the <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-500">Best</span>
             </h3>
