@@ -44,15 +44,15 @@ const courses = [
       description: 'Specialized batches for CUET.',
       icon: LineChart,
       features: ['Syllabus Coverage', 'Previous Year Qs', 'Test Series'],
-      color: 'bg-green-500'
+      color: 'bg-red-500'
   },
   {
       id: 'computercourse',
-      title: 'Computer Courses',
-      description: 'Specialized batches for Computer Courses ADCA, DCA, Telly with practical insights, Ms Office, Typing',
+      title: 'COMPUTER Courses',
+      description: 'Specialized batches for Computer Courses Artificial Intelligence(AI), Data Science, Machine Learning, Python, Web Development, ADCA, DCA, Tally with practical insights, Ms Office, Typing',
       icon: LineChart,
       features: ['Syllabus Coverage', 'Practical insights', 'Test Series', 'Doubt Classes'],
-      color: 'bg-green-500'
+      color: 'bg-yellow-500'
   },
 ];
 
@@ -83,7 +83,7 @@ export default function CoursesSection() {
           </motion.div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {courses.map((course, index) => (
             <motion.div
               key={course.id}
