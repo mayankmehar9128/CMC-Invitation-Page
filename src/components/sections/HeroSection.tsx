@@ -5,7 +5,7 @@ import { ArrowRight, Award, BookOpen, Users } from 'lucide-react';
 import classroom1Url from '../../assets/classroom1.jpg';
 
 const handleContact = () => {
-  window.open('https://infodatasoft.tech/contact', '_blank');
+  window.open('https://infodatasoft.tech/login', '_blank');
 };
 
 export default function HeroSection() {
