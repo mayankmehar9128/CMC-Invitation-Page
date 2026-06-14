@@ -7,7 +7,7 @@ import teacher2 from '../../assets/teachers/teacher2.jpg';
 import teacher3 from '../../assets/teachers/teacher3.jpg';
 import teacher4 from '../../assets/teachers/teacher4.jpg';
 import teacher5 from '../../assets/teachers/teacher5.png';
-import MithileshSir from '../../assets/teachers/MithileshSir.jpg';
+import MithileshSir from '../../assets/teachers/MithileshSir.jpeg';
 
 const teachers = [
   {
