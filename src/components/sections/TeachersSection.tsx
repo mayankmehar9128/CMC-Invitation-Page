@@ -8,13 +8,14 @@ import teacher3 from '../../assets/teachers/teacher3.jpg';
 import teacher4 from '../../assets/teachers/teacher4.jpg';
 import teacher5 from '../../assets/teachers/teacher5.png';
 import MithileshSir from '../../assets/teachers/MithileshSir.jpeg';
+import Mithilesh_Sir2 from '../../assets/teachers/Mithilesh_Sir2.jpeg';
 
 const teachers = [
   {
     id: 1,
     name: "MITHILESH SIR",
     subject: "",
-    image: MithileshSir,
+    image: Mithilesh_Sir2,
     thought: "Education is the key to unlocking the world, a passport to freedom."
   },
   {
