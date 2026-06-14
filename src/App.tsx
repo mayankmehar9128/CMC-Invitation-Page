@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import HeroSection from './components/sections/HeroSection';
 import AboutSection from './components/sections/AboutSection';
+import FeaturesSection from './components/sections/FeaturesSection';
 import VideoSection from './components/sections/VideoSection';
 import CoursesSection from './components/sections/CoursesSection';
 import TeachersSection from './components/sections/TeachersSection';
@@ -82,6 +83,7 @@ function App() {
         <HeroSection />
         <VideoSection />
         <AboutSection />
+        <FeaturesSection />
         <CoursesSection />
         <TeachersSection />
         <DirectorSection />

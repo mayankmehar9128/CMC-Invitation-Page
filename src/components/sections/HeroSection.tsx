@@ -38,7 +38,7 @@ export default function HeroSection() {
             </h1>
             
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Join MIHTILESH COMMERCE CMC for unparalleled coaching in CA, CS, CMA, B.Com, BBA, CUET, and more. Experience smart study with smart results.
+              Join MIHTILESH COMMERCE CMC for unparalleled coaching in 11th, 12th, CA, CS, CMA, B.Com, BBA, CUET, BPSC and more. Experience smart study with smart results.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -55,7 +55,7 @@ export default function HeroSection() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-gray-200">
               <div>
-                <h4 className="text-3xl font-bold text-gray-900 mb-1">5000+</h4>
+                <h4 className="text-3xl font-bold text-gray-900 mb-1">10000+</h4>
                 <p className="text-sm text-gray-500">Students Taught</p>
               </div>
               <div>
