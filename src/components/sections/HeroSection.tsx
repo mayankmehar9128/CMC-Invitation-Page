@@ -5,7 +5,7 @@ import { ArrowRight, Award, BookOpen, Users } from 'lucide-react';
 import classroom1Url from '../../assets/classroom1.jpg';
 
 const handleContact = () => {
-  window.open('https://infodatasoft.tech/', '_blank');
+  window.open('https://infodatasoft.tech/contact', '_blank');
 };
 
 export default function HeroSection() {
@@ -48,7 +48,7 @@ export default function HeroSection() {
               </Button> */}
               {/* className="text-lg px-8 py-6 rounded-full border-2 hover:bg-gray-50" */}
               <Button onClick={handleContact} size="lg" className="text-lg px-8 py-6 rounded-full shadow-lg shadow-primary/30 group">
-                Contact Us
+                Click for Online Admission
               </Button>
             </div>
 
