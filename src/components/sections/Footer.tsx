@@ -59,7 +59,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary shrink-0 mt-1" />
-                <span className="text-gray-400">Kumhrar, Patna, Bihar<br/>Pin: 800026</span>
+                <span className="text-gray-400">Bhikhna Pahari, Patna, Bihar<br/>Pin: 800004</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-primary shrink-0" />
