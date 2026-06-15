@@ -5,11 +5,11 @@ import { motion } from 'framer-motion';
 export default function VideoSection() {
   return (
     <section className="w-full bg-transparent overflow-hidden relative py-12">
-      <motion.div 
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.8 }}
+      <div 
+        // initial={{ opacity: 0, y: 20 }}
+        // whileInView={{ opacity: 1, y: 0 }}
+        // viewport={{ once: true }}
+        // transition={{ duration: 0.8 }}
         className="container mx-auto px-4 flex justify-center items-center"
       >
         <div className="relative rounded-3xl overflow-hidden shadow-lg border-4 border-white bg-black">
@@ -33,7 +33,7 @@ export default function VideoSection() {
             Your browser does not support the video tag.
           </video>
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 }
