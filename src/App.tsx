@@ -10,6 +10,7 @@ import FeeTimingSection from './components/sections/FeeTimingSection';
 import LocationSection from './components/sections/LocationSection';
 import FloatingWhatsApp from './components/sections/FloatingWhatsApp';
 import Footer from './components/sections/Footer';
+import AppDownloadSection from './components/sections/AppDownloadSection';
 
 const BackgroundAnimation = () => {
   return (
@@ -48,6 +49,7 @@ function App() {
         <DirectorSection />
         <FeeTimingSection />
         <LocationSection />
+        <AppDownloadSection />
       </main>
       <Footer />
       <FloatingWhatsApp />
