@@ -16,7 +16,7 @@ export default function AppDownloadSection() {
             >
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
                 Take Learning Anywhere with <br className="hidden md:block"/>
-                <span className="text-primary">CMC INFODATASOFT</span>
+                <span className="text-primary">CMC infodatasoft</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0">
                 Download our official mobile application to access study materials, video lectures, online tests, and stay connected with our teachers anytime, anywhere.
@@ -43,25 +43,6 @@ export default function AppDownloadSection() {
             </motion.div>
           </div>
 
-                          {/* <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
-                  <a 
-                    href="https://play.google.com/store/apps/details?id=com.mithileshinfodatasoft.InfodatasoftMobile" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-3 bg-slate-900 text-white px-6 py-3 rounded-xl hover:bg-slate-800 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1 group border border-slate-700"
-                  >
-                    <svg viewBox="0 0 512 512" className="w-8 h-8 group-hover:scale-110 transition-transform">
-                      <path fill="#4CAF50" d="M43.2,34.4L337.8,206L246.5,297.3L43.2,34.4z"/>
-                      <path fill="#03A9F4" d="M337.8,206l117.4,68.5c16.3,9.5,16.3,24.8,0,34.3L337.8,377.3l-91.3-91.3L337.8,206z"/>
-                      <path fill="#F44336" d="M43.2,477.6l203.3-263.2l91.3,91.3L43.2,477.6z"/>
-                      <path fill="#FFC107" d="M43.2,34.4v443.2c0,11.3,7.6,15.6,16.8,10.2l186.5-108.3L43.2,34.4z"/>
-                    </svg>
-                    <div className="text-left flex flex-col">
-                      <span className="text-[10px] font-semibold leading-tight uppercase text-slate-300">GET IT ON</span>
-                      <span className="text-lg font-bold leading-tight">Google Play</span>
-                    </div>
-                  </a>
-                </div> */}
           
           <motion.div 
             className="flex-1 w-full flex justify-center"
@@ -82,7 +63,7 @@ export default function AppDownloadSection() {
               <div className="w-full h-full bg-slate-50 rounded-[2.25rem] overflow-hidden flex flex-col relative z-10">
                 {/* App Header */}
                 <div className="bg-primary px-6 pt-12 pb-6 text-white rounded-b-[2rem] shadow-sm">
-                  <div className="font-bold text-xl mb-1">CMC INFODATASOFT</div>
+                  <div className="font-bold text-xl mb-1">CMC infodatasoft</div>
                   <div className="text-sm text-blue-100">Welcome, Student 👋</div>
                 </div>
                 
