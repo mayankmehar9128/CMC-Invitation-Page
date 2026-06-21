@@ -16,7 +16,10 @@ export default function AppDownloadSection() {
             >
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
                 Take Learning Anywhere with <br className="hidden md:block"/>
-                <span className="text-primary">CMC infodatasoft</span>
+                <span className="text-primary flex flex-col md:flex-row items-center gap-3 mt-2 justify-center lg:justify-start">
+                  <img src="/CMC_logo.jpeg" alt="CMC Logo" className="w-20 h-20 object-contain rounded-xl" />
+                  CMC infodatasoft
+                </span>
               </h2>
               <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0">
                 Download our official mobile application to access study materials, video lectures, online tests, and stay connected with our teachers anytime, anywhere.
@@ -63,7 +66,10 @@ export default function AppDownloadSection() {
               <div className="w-full h-full bg-slate-50 rounded-[2.25rem] overflow-hidden flex flex-col relative z-10">
                 {/* App Header */}
                 <div className="bg-primary px-6 pt-12 pb-6 text-white rounded-b-[2rem] shadow-sm">
-                  <div className="font-bold text-xl mb-1">CMC infodatasoft</div>
+                  <div className="flex items-center gap-2 mb-1">
+                    <img src="/CMC_logo.jpeg" alt="App Logo" className="w-6 h-6 bg-white rounded-md p-0.5 object-contain" />
+                    <div className="font-bold text-xl">CMC infodatasoft</div>
+                  </div>
                   <div className="text-sm text-blue-100">Welcome, Student 👋</div>
                 </div>
                 

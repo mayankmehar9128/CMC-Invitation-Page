@@ -4,9 +4,9 @@ import { Button } from '../ui/button';
 import { ArrowRight, Award, BookOpen, Users } from 'lucide-react';
 import classroom1Url from '../../assets/classroom1.jpg';
 
-const handleContact = () => {
-  window.open('https://infodatasoft.tech/login', '_blank');
-};
+// const handleContact = () => {
+//   window.open('https://infodatasoft.tech/login', '_blank');
+// };
 
 export default function HeroSection() {
   return (
@@ -25,9 +25,12 @@ export default function HeroSection() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="max-w-2xl"
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-100 text-secondary font-semibold text-sm mb-6">
-              <Award className="h-4 w-4" />
-              <span>1st in BIHAR for STUDY</span>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-6">
+              <img src="/CMC_logo.jpeg" alt="CMC Logo" className="w-28 h-28 object-contain rounded-xl" />
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-100 text-secondary font-semibold text-sm self-start sm:self-auto">
+                <Award className="h-4 w-4" />
+                <span>1st in BIHAR for STUDY</span>
+              </div>
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-extrabold text-gray-900 leading-tight mb-6 tracking-tight">
@@ -47,9 +50,9 @@ export default function HeroSection() {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button> */}
               {/* className="text-lg px-8 py-6 rounded-full border-2 hover:bg-gray-50" */}
-              <Button onClick={handleContact} size="lg" className="text-lg px-8 py-6 rounded-full shadow-lg shadow-primary/30 group">
+              {/* <Button onClick={handleContact} size="lg" className="text-lg px-8 py-6 rounded-full shadow-lg shadow-primary/30 group">
                 Click for Online Admission
-              </Button>
+              </Button> */}
             </div>
 
             {/* Stats */}

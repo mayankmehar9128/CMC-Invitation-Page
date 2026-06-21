@@ -12,7 +12,10 @@ export default function Footer() {
           
           {/* Brand Col */}
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold text-white mb-6">MITHILESH COMMERCE <span className="text-secondary">CMC</span></h3>
+            <div className="flex items-center gap-3 mb-6">
+              {/* <img src="/CMC_INFODATASOFT_APP_ICON.svg" alt="CMC Logo" className="w-12 h-12 bg-white rounded-lg p-1 object-contain" /> */}
+              <h3 className="text-2xl font-bold text-white">MITHILESH COMMERCE <span className="text-secondary">CMC</span></h3>
+            </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Bihar's leading commerce institute providing quality education and ensuring top ranks in professional and academic exams.
             </p>
