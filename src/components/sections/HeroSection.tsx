@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useEffect, useRef } from 'react';
+import { motion, useInView, animate } from 'framer-motion';
 import { Button } from '../ui/button';
 import { ArrowRight, Award, BookOpen, Users } from 'lucide-react';
 import classroom1Url from '../../assets/classroom1.jpg';
@@ -7,6 +7,28 @@ import classroom1Url from '../../assets/classroom1.jpg';
 // const handleContact = () => {
 //   window.open('https://infodatasoft.tech/login', '_blank');
 // };
+
+const Counter = ({ from, to, suffix = "", duration = 2 }: { from: number; to: number; suffix?: string; duration?: number }) => {
+  const ref = useRef<HTMLSpanElement>(null);
+  const inView = useInView(ref, { once: true, margin: "-50px" });
+
+  useEffect(() => {
+    if (inView) {
+      const controls = animate(from, to, {
+        duration,
+        ease: "easeOut",
+        onUpdate: (value) => {
+          if (ref.current) {
+            ref.current.textContent = Math.round(value).toString() + suffix;
+          }
+        }
+      });
+      return () => controls.stop();
+    }
+  }, [from, to, inView, duration, suffix]);
+
+  return <span ref={ref}>{from}{suffix}</span>;
+};
 
 export default function HeroSection() {
   return (
@@ -58,15 +80,21 @@ export default function HeroSection() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-gray-200">
               <div>
-                <h4 className="text-3xl font-bold text-gray-900 mb-1">10000+</h4>
+                <h4 className="text-3xl font-bold text-gray-900 mb-1">
+                  <Counter from={0} to={10000} suffix="+" duration={2.5} />
+                </h4>
                 <p className="text-sm text-gray-500">Students Taught</p>
               </div>
               <div>
-                <h4 className="text-3xl font-bold text-gray-900 mb-1">25+</h4>
+                <h4 className="text-3xl font-bold text-gray-900 mb-1">
+                  <Counter from={0} to={25} suffix="+" duration={2} />
+                </h4>
                 <p className="text-sm text-gray-500">Years Experience</p>
               </div>
               <div>
-                <h4 className="text-3xl font-bold text-gray-900 mb-1">100%</h4>
+                <h4 className="text-3xl font-bold text-gray-900 mb-1">
+                  <Counter from={0} to={100} suffix="%" duration={2} />
+                </h4>
                 <p className="text-sm text-gray-500">Commitment</p>
               </div>
             </div>

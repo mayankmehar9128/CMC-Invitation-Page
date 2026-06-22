@@ -12,6 +12,8 @@ import FloatingWhatsApp from './components/sections/FloatingWhatsApp';
 import Footer from './components/sections/Footer';
 import AppDownloadSection from './components/sections/AppDownloadSection';
 import OnlineAdmissionSection from './components/sections/OnlineAdmissionSection';
+import ScrollToTop from './components/ui/ScrollToTop';
+import ScrollReveal from './components/ui/ScrollReveal';
 
 const BackgroundAnimation = () => {
   return (
@@ -42,19 +44,20 @@ function App() {
       <BackgroundAnimation />
       <main className="relative z-10">
         <HeroSection />
-        <VideoSection />
-        <AboutSection />
-        <FeaturesSection />
-        <CoursesSection />
-        <TeachersSection />
-        <DirectorSection />
-        <FeeTimingSection />
-        <LocationSection />
-        <AppDownloadSection />
-        <OnlineAdmissionSection />
+        <ScrollReveal><VideoSection /></ScrollReveal>
+        <ScrollReveal><AboutSection /></ScrollReveal>
+        <ScrollReveal><FeaturesSection /></ScrollReveal>
+        <ScrollReveal><TeachersSection /></ScrollReveal>
+        <ScrollReveal><CoursesSection /></ScrollReveal>
+        <ScrollReveal><DirectorSection /></ScrollReveal>
+        <ScrollReveal><FeeTimingSection /></ScrollReveal>
+        <ScrollReveal><LocationSection /></ScrollReveal>
+        <ScrollReveal><AppDownloadSection /></ScrollReveal>
+        <ScrollReveal><OnlineAdmissionSection /></ScrollReveal>
       </main>
-      <Footer />
+      <ScrollReveal><Footer /></ScrollReveal>
       <FloatingWhatsApp />
+      <ScrollToTop />
     </div>
   );
 }
