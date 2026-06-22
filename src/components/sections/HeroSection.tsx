@@ -81,7 +81,7 @@ export default function HeroSection() {
             <div className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-gray-200">
               <div>
                 <h4 className="text-3xl font-bold text-gray-900 mb-1">
-                  <Counter from={0} to={10000} suffix="+" duration={2.5} />
+                  <Counter from={0} to={10000} suffix="+" duration={2} />
                 </h4>
                 <p className="text-sm text-gray-500">Students Taught</p>
               </div>
