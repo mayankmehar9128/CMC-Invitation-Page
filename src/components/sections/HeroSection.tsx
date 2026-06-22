@@ -10,7 +10,7 @@ import classroom1Url from '../../assets/classroom1.jpg';
 
 const Counter = ({ from, to, suffix = "", duration = 2 }: { from: number; to: number; suffix?: string; duration?: number }) => {
   const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-50px" });
+  const inView = useInView(ref, { once: true });
 
   useEffect(() => {
     if (inView) {
