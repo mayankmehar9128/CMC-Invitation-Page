@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, MapPin, Phone, Globe, Share2 } from 'lucide-react';
+import { Mail, MapPin, Phone, Globe, Share2, Globe2, Network } from 'lucide-react';
 import youtubesvg from '../../assets/icons8-youtube.svg';
 import twittersvg from '../../assets/icons8-twitter.svg';
 import instagramsvg from '../../assets/icons8-instagram.svg';
@@ -72,6 +72,10 @@ export default function Footer() {
                 <Mail className="h-5 w-5 text-primary shrink-0" />
                 <a href="mailto:cmcpatna99@gmail.com" className="text-gray-400 hover:text-white transition-colors">cmcpatna99@gmail.com</a>
               </li>
+              <li className="flex items-center gap-3">
+                < Globe className="h-5 w-5 text-primary shrink-0" />
+                <a href="https://infodatasoft.tech/" target="_blank" className="text-gray-400 hover:text-blue-400 transition-colors">www.infodatasoft.tech</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -79,8 +83,9 @@ export default function Footer() {
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
           <p>&copy; {new Date().getFullYear()} Mithilesh CMC Commerce. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <p>Powered By <a className='text-blue-500' href="https://infodatasoft.tech/" target="_blank">MIHTILESH INFODATASOFT</a></p>
+            {/* <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-white transition-colors">Terms of Service</a> */}
           </div>
         </div>
       </div>
