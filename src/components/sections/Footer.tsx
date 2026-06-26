@@ -83,7 +83,7 @@ export default function Footer() {
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
           <p>&copy; {new Date().getFullYear()} Mithilesh CMC Commerce. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <p>Powered By <a className='text-blue-500' href="https://infodatasoft.tech/" target="_blank">MIHTILESH INFODATASOFT</a></p>
+            <p>Powered By <a className='text-blue-500' href="https://infodatasoft.tech/" target="_blank">MITHILESH INFODATASOFT CAREER RESEARCH ORGNISATION Pvt. Ltd.</a></p>
             {/* <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a> */}
           </div>
